@@ -4,7 +4,7 @@ public class C04Scanner {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);\
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("이름 입력 : ");
 		String name=sc.nextLine();
