@@ -14,7 +14,7 @@ public class C04Scanner {
 		
 		sc.nextline(); //버퍼에 있는 \n 건너뛰기
 		System.out.print("주소 입력 : ");
-		String addr = sc.next.Line();
+		String addr = sc.nextLine();
 		
 		System.out.printf("이름:%s 나이:%d 주소:%s\n",name,age,addr);
 		
