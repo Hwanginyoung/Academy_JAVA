@@ -16,6 +16,7 @@ public class C03Scanner {
 		System.out.print("문자열입력 : ");
 		String str1 = sc.next();
 		System.out.println("문자열 확인 : "+str1);
+		
 	}
 
 }
