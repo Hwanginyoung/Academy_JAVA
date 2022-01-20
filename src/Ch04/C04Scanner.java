@@ -18,7 +18,7 @@ public class C04Scanner {
 		
 		System.out.printf("이름:%s 나이:%d 주소:%s\n",name,age,addr);
 		
-		sc
+		
 
 	}
 
