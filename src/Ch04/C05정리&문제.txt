@@ -17,22 +17,22 @@ Scanner : 키보드로부터 입력받는 장치 생성에 필요한 클래스 �
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("첫번째 수 : ");
-String strNum1=_____________;
+String strNum1=_____________; ->sc.next();
 
 System.out.print("두번째 수 : ");
-String strNum2=_____________;
+String strNum2=_____________; ->sc.next();
 
-int num1 = ________________;
-int num2 = ________________;
+int num1 = ________________; ->Integer.parseInt(strNum1);
+int num2 = ________________; ->Integer.parseInt(strNum2);
 
 int result = num1 + num2;
 System.out.println("덧셈 결과 : " + result);
 ----------------------------
 
 
+
 2 Scanner를 이용해서 이름, 주민번호 앞 6자리 , 전화번호를 키보드에서
 입력받고 출력하는 코드를 작성해보세요
-
 
 [예시]
 ----------------------------
@@ -46,6 +46,21 @@ System.out.println("덧셈 결과 : " + result);
 주민번호 : 123456
 PH : 010-222-3333
 ----------------------------
+ Scanner scanner = new Scanner(System.in);
+ System.out.println("[필수 정보 입력]");
+ System.out.print("1. 이름: ");
+ String name = scanner.nextLine();
+ System.out.print("2. 주민번호 앞 6자리: ");
+ String num = scanner.nextLine();
+ System.out.print("3. 전화번호: ");
+ String tel = scanner.nextLine();
+  System.out.println();
+
+ System.out.println("[입력된 내용]");
+ System.out.println("1. 이름: " + name);
+ System.out.println("2. 주민번호 앞 6자리: " + num);
+ System.out.println("3. 전화번호: " + tel);
+
 
 
 
