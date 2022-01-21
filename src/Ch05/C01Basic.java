@@ -78,12 +78,47 @@ public class C01Basic {
 //		int b=20;
 //		int c=++a;
 //		int d=b++;
-//		itn e=a++ + b--;
+//		int e=a++ + b--;
 //		System.out.println("a = "+a)
 //		System.out.println("b = "+b)
 //		System.out.println("c = "+c)
 //		System.out.println("d = "+d)
 //		System.out.println("e = "+e)
+		
+		
+		
+		//삼항연산자(-> if/switch로 대체)
+//		int score=85;
+//		char grade = (score>90)?'A':(score>80)?'B':'C';
+//		System.out.println("점수 : "+ grade);
+		
+		//문제
+		//국어,영어,수학 점수를 입력받아 세수의 합이 240점이상이면 '합격'출력
+		//아니면 '불합격'을 출력하세요
+//		int kor=0, eng=0, math=0;
+//		int sum;
+//		
+//		//-(1)
+////		Scanner sc = new Scanner(System.in);
+////		System.out.println("국어 : ");
+////		kor = sc.nextInt();
+////		System.out.println("영어 : ");
+////		eng = sc.nextInt();
+////		System.out.println("수학 : ");
+////		math = sc.nextInt();
+////		sum = kor+eng+math;
+//		
+//		//-(2)
+//		System.out.print("국 영 수 입력 : ");
+//		kor = sc.nextInt();
+//		eng = sc.nextInt();
+//		math = sc.nextInt();
+//		sum = kor+eng+math;
+//		
+//		result = (sum>=240)?"합격":"불합격";
+//		System.out.println("결과 : "+result)
+		
+		
 		
 		
 	}
