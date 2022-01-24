@@ -31,17 +31,17 @@ public class C03Prac {
 		//20이상이면 성인입니다 출력
 		//8살 이상이면 취학아동 입니다
 		//8살 미만이면 미취학아동 입니다
-		Scanner sc = new Scanner(System.in);
-		System.out.print("나이 : ")
-		int age - sc.nextInt();
-		
-		if(age>=20) {
-			System.out.println("성인");
-		} else if(age>8) {
-			System.out.println("취학아동");
-		} else {
-			System.out.println("미취학아동");
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("나이 : ")
+//		int age - sc.nextInt();
+//		
+//		if(age>=20) {
+//			System.out.println("성인");
+//		} else if(age>8) {
+//			System.out.println("취학아동");
+//		} else {
+//			System.out.println("미취학아동");
+//		}
 
 	}
 
