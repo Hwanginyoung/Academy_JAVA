@@ -78,7 +78,7 @@ public class C01While {
 		
 		
 		
-		//구구단 역순
+		//구구단 역순 (시작 : 9, 끝 : 1, 반복Interval : 1씩 감소)
 //		Scanner sc = new Scanner(System.in);
 //		System.out.print("단 입력 : ");
 //		int dan=nextInt();
