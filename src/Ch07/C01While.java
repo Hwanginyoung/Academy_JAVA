@@ -89,6 +89,41 @@ public class C01While {
 //		}
 		
 		
+		
+		//1부터 입력한 수까지 중에 짝수의 합 구하기
+//		int i=0;
+//		int sum=0;
+//		while(i<=10) {
+//			if(i%2==0) {
+//				System.out.println("i : "+ i);
+//				sum+=i;
+//			} else {
+//				
+//			}
+//			i++;
+//		}
+		
+		
+		
+		//1부터 n까지의 수중에 3의 배수의 합만 구해서 출력
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("입력 : ");
+//		int n = nextInt();
+//		
+//		int i=1;
+//		int sum=0;
+//		
+//		while(i<=n) {
+//			if(i%3==0) {
+//				System.out.println("i : "+ i);//확인
+//				sum+=i;
+//			}
+//			i++;
+//		}
+//		System.out.println("1부터 %d까지의 합 : %d\n", n,sum);
+		
+		
+		
 
 	}
 
