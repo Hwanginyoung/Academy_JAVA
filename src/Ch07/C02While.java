@@ -38,16 +38,16 @@ public class C02While {
 		
 		
 		
-		//전체 구구단 역순출력
+		//전체 구구단 역순출력 (9단부터 1단출력)
 //		int dan=9;
-//		int i=9;
+//		int i=1;
 //		
-//		while(dan>=1) {
-//			i=9;
+//		while(dan>=2) {
+//			i=1;
 //			
-//			while(i>=1) {
+//			while(i<=9) {
 //				System.out.println(dan+" X "+i+" = "(dan*i));
-//				i--;
+//				i++;
 //			}
 //			System.out.println();
 //			dan--;
