@@ -345,7 +345,37 @@ public class C02While {
 		// *
 		//***
 		// *
-		
+//        int i=0; //행증가
+//		int j=0; //공백
+//		int k=0; //별
+//		
+//		while(i<7) {
+//			if(i<4) {
+//				j=0;
+//				while(j<=2-i) {
+//					System.out.print(" ");
+//					j++; 
+//				}
+//				k=0;
+//				while(k<=2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			} else {
+//				j=0;
+//				while(j<=i-4) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				k=0;
+//				while(k<=12-2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		
