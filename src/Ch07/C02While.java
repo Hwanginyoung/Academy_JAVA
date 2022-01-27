@@ -100,6 +100,17 @@ public class C02While {
 		//**
 		//***
 		//****
+		//
+		//	i	 j
+		//	0	 0-0
+		//	1	 0-1
+		//	2	 0-2
+		//	3	 0-3
+		//	-------------
+		//	i<4	 j=0
+		//	i++	 j<=i
+		//		 j++
+		
 //		int i=0;
 //		int j=0;
 //		
@@ -121,6 +132,17 @@ public class C02While {
 		//***
 		//**
 		//*
+		//
+		//	i	j
+		//	0	0-3	
+		//	1	0-2
+		//	2	0-1
+		//	3	0-0
+		//	------------
+		//		j=0
+		//		j<=3-i
+		//		j++;
+		
 //		int i=0;
 //		int j=0;
 //		
@@ -142,6 +164,17 @@ public class C02While {
 		//  ***
 		// *****
 		//*******
+		//
+		//	i	j(공백)	k(별)
+		//	0	0-2		0-0
+		//	1	0-1		0-2
+		//	2	0-0		0-4
+		//	3	x		0-6
+		//	------------------------------
+		//	j=0			k=0
+		//	j<=2-i		k<=2*i
+		//	j++			k++
+		
 //		int i=0; //행
 //		int j=0; //공백
 //		int k=0; //별
@@ -171,6 +204,17 @@ public class C02While {
 		// *****
 		//  ***
 		//   *
+		//
+		//	i	j(공백)		k(별)
+		//	0	x		0-6	
+		//	1	0-0		0-4
+		//	2	0-1		0-2
+		//	3	0-2		0-0
+		//	----------------------------
+		//		j=0		k=0
+		//		j<=i-1	k<=6-2*i
+		//		j++		k++
+		
 //		int i=0; //행
 //		int j=0; //공백
 //		int k=0; //별
@@ -219,32 +263,32 @@ public class C02While {
 		
 		
 		//입력한 높이만큼 정삼각형을 찍어봅시다.
-		Scanner sc = new Scanner(System.in);
-		System.out.print("높이 : ");
-		int h = nextInt();
-		
-		int i=0; //행
-		int j=0; //공백
-		int k=0; //별
-		
-		while(i<=h-1) {
-			//공백
-			j=0;
-			while(j<=(h-2)-i) {
-				System.out.print(" ");
-				j++;
-			}
-			
-			//별
-			k=0;
-			while(k<=2*i) {
-				System.out.print("*");
-				k++;
-			}
-			
-			System.out.println();
-			i++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("높이 : ");
+//		int h = nextInt();
+//		
+//		int i=0; //행
+//		int j=0; //공백
+//		int k=0; //별
+//		
+//		while(i<=h-1) {
+//			//공백
+//			j=0;
+//			while(j<=(h-2)-i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			
+//			//별
+//			k=0;
+//			while(k<=2*i) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		
@@ -257,6 +301,50 @@ public class C02While {
 		//  ***
 		//   *
 		
+//		int i=0;//행
+//		int j=0;//공백
+//		int k=0;//별
+//		while(i<7) {
+//			if(i<4) { //위부분
+//				//공백
+//				j=0;
+//				while(j<=2-i) {
+//					System.out.print(" ");
+//					j++;
+//				}
+//				//별
+//				k=0;
+//				while(k<=2*i) {
+//					System.out.print("*");
+//					k++;
+//				}
+//			}
+//			else { //아래부분
+//				//공백
+//				j=0;
+//				while(j<=i-4) {
+//					System.out.print(" ");
+//					j++:
+//				}
+//				//별
+//				k=0;
+//				while(k<=12-2*i) {
+//					System.out.print("*");
+//					k++:
+//				}
+//			}
+//			
+//			System.out.println();
+//			i++;
+//		}
+		
+		
+		
+		//눞이를 입력받아(홀수)그높이만큼 다이아몬드 별찍기
+		//높이 : 3
+		// *
+		//***
+		// *
 		
 		
 		
