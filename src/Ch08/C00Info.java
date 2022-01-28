@@ -34,6 +34,5 @@ public class C00Info {
 	//3) new : 힙영역에 객체생성
 	//4) Scanner() : 생성자, 멤버변수의 초기값을 설정
 	
-	
 
 }
