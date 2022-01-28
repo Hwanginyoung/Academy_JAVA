@@ -1,7 +1,7 @@
 package Ch08;
 
 class C04Computer {
-	String SN;
+	String SN; //시리얼넘버
 	String CPUSpec;
 	String RAMSpec;
 	String DISKSpec;
@@ -13,7 +13,7 @@ class C04Computer {
 		System.out.println(SN +"전원을 끕니다");
 	}
 	ShowInfo() {
-		System.out.println("시리얼넘버 : "+SN);
+		System.out.println("SN : "+SN);
 		System.out.println("CPU : "+CPUspec);
 		System.out.println("RAM : "+RANSpec);
 		System.out.println("DISK : "+DISKSpec);
