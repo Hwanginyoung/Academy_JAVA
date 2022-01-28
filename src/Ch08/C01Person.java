@@ -1,6 +1,6 @@
 package Ch08;
 
-public class C02Person {
+public class C01Person {
 
 	//속성(멤버변수)
 	String name;
