@@ -63,5 +63,4 @@ public class C06MethodMain {
 		cal.sub(300,10)''				//x-y값 출력
 		
 	}
-
 }
