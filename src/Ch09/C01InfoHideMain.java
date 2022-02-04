@@ -14,7 +14,7 @@ package Ch09;
 class C01Person {
 	//속성
 	public String name;
-	private int age;				//나이
+	private int age;		//나이
 	private String id;		//주민번호
 	private String addr;	//주소
 	
@@ -35,14 +35,14 @@ class C01Person {
 		this.age = age;
 	}
 	//id에 대한 Getter Setter 만들기
-	void getId(String id) {
+	String getId() {
 		return this.id;
 	}
 	void setId(String id) {
 		this.id = id;
 	}
 	//addr에 대한 Getter Setter 만들기
-	void getAddr(String addr) {
+	String getAddr() {
 		return this.addr;
 	}
 	void setAddr(String addr) {
