@@ -1,7 +1,5 @@
 package Ch13;
 
-
-
 class Super{
 	int x;
 	Super(){System.out.println("Super클래스 생성자 호출!");}
