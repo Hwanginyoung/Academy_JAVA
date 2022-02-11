@@ -7,6 +7,8 @@ package 14;
 //C01Super ob = new C01Sub();
 //클래스 자료형이 다를떄 컴파일러에 의해 자동으로 자료형이 일치되는 현상
 
+//Upcasting 사용이유
+
 class C01Super {
 	int x;
 }
