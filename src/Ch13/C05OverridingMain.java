@@ -14,7 +14,7 @@ class Animal {
 	public void Sound() {System.out.println("소리를 냅니다!");}
 }
 
-class Dob extends Animal{
+class Dog extends Animal{
 	public void Sound() {System.out.println("멍멍 소리를 냅니다!");}
 }
 class Cat extends Animal{
@@ -28,7 +28,7 @@ class Cat extends Animal{
 public class C05OverridingMain {
 	public static void main(String[] args) {
 
-		Dob poppi = new Dob();
+		Dog poppi = new Dog();
 		poppi.Sound();
 		Cat yummi = new Cat();
 		yummi.Sound();
