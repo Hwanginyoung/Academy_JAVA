@@ -45,14 +45,14 @@ public class C05AbstractMain {
 		Par1 ob1 = new Par1(); //상위클래스로 객체 생성 가능!
 		Son1 ob2 = new Son1(); //하위클래스로 객체 생성 가능!
 		Par1 up = new Son1(); //업캐스팅
-		up.Sound(); //재정의도니 하위 클래스의 Sound() 사용 할 수 있다!
+		up.Sound(); //재정의된 하위 클래스의 Sound() 사용 할 수 있다!
 		
 		//추상클래스 확인
 		//Par2 obj1 = new Par2(); //추상클래스로 객체생성 불가능(미완성된 메서드포함되었기 때문에)
 		Son2 obj2 = new Son2(); //Sound()를 완성시킨 하위 클래스는 객체 생성 가능
 		Par2 up2 = new Son2();  //Upcasting 가능!
 		up2.Sound();//추상클래스 참조변수로 Upcasting을 한성태에서
-					//하위클래스에서 강제 재정의한 Sound()함수에 접근가능하다
+					//하위클래스에서 강제 재정의한 Sound()함수에 접근가능하다.
 
 	}
 
