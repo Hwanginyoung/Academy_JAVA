@@ -73,7 +73,7 @@ public class C03main {
 				stack.pop();
 			}
 			else if(no==3) {
-				for(int i=0;i<stack.length();i++) {
+				for(int i=0; i<stack.length()-1; i++) {
 					System.out.println(stack.stack[i])
 				}
 			}
