@@ -26,8 +26,8 @@ public class C05EqualsMain {
 		Position pos2 = new Position(10,20);
 		Position pos3 = new Position(11,22);
 		
-		System.out.println("pos1==pos2 ? "+ pos1.equals(pos2));
-		System.out.println("pos1==pos3 ? "+ pos1.equals(pos3));
-		System.out.println("pos2==pos3 ? "+ pos2.equals(pos3));
+		System.out.println("pos1==pos2 ? "+ pos1.equals(pos2));//true
+		System.out.println("pos1==pos3 ? "+ pos1.equals(pos3));//false
+		System.out.println("pos2==pos3 ? "+ pos2.equals(pos3));//false
 	}
 }
