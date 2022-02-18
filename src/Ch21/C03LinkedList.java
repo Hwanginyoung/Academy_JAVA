@@ -5,6 +5,10 @@ class BOOK {
 	String title;
 	
 	//생성자 추가(모든 필드를 받습니다)
+	public BOOK(int code,String title) {
+		super();
+		this
+	}
 	//toString()추가
 }
 
@@ -20,33 +24,55 @@ public class C03LinkedList {
 		//list에 저장된 각 index의 code와 title을 출력합니다
 		//삭제할 책이름(title)을 받아서 해당 책이름(title)을 가지는 BOOK객체를 list에서 제거(remove(i))합니다
 		
-		List<Profile> list = new Vector();
 		Scanner sc = new Scanner(System.in);
-		int n = null;
-		String code = null;
-		String title = null;
-		Profile tmp = null;
+		System.out.print("개수 입력 : ");
+		int no = sc.nextInt();
 		
-		for(int i=0; i<n; i++) {
-			System.out.print("제목 : ");
-			title = sc.next();
-			System.out.print("코드 : ");
-			code = sc.next();
-		}
-		
-		list.add(tmp);
-		System.out.println();
-		
-		//책의 개수 출력
-		
-		for(int i=0; i<list.size(); i++) {
-			System.out.printf("%s, %s\n", list.get(i).code, list.get(i).title);
-		}
-		
-		//삭제
-		System.out.println("삭제할 책 제목 : ");
-		list.remove()
+		while(true) {
+			System.out.println("--------------MENU--------------");
+			System.out.println("1 BOOK 정보 삽입");
+			System.out.println("2 BOOK 정보 확인");
+			System.out.println("3 종료");
+			System.out.println("--------------MENU--------------");
+			System.out.print("메뉴번호 : ");
+			int menu = sc.nextInt();
+			if(menu == 1) {
+				System.out.println("개수 입력 : ");
+				int no = sc.nextInt();
+				//입력받기
+				int code = 0;
+				String title = null;
+				Book tmp = null;
+			
+				for(int i=0; i<no; i++) {
+					System.out.printf("%d 번째 Code : ", i+1);
+					code = sc.nextInt();
+					System.out.printf("%d 번째 Title : ", i+1);
+					title = sc.next();
+				
+					tmp = new BOOK(code, title);
+					list.add(tmp);
+				
+					System.out.println();
+				}
+			}
+			else if(menu == 2) {
+				//출력하기
+				for(int i=0; i<list.size(); i++) {
+					System.out.println(list.get(i).toString());
+			}
+			else if(menu == 3) {
+				
+			}
+			else {
+				System.out.println("번호 잘못 입력!");
+			}
+			
+			
 
+			
+			}
+		}
 	}
 
 }
