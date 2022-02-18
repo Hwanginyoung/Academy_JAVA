@@ -7,9 +7,14 @@ class BOOK {
 	//생성자 추가(모든 필드를 받습니다)
 	public BOOK(int code,String title) {
 		super();
-		this
+		this.code = code;
+		this.title = title;
 	}
 	//toString()추가
+	@Override
+	public String toString() {
+		return "BOOK [code=" + code + ", title=" + title + "]";
+	}
 }
 
 public class C03LinkedList {
