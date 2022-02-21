@@ -29,6 +29,9 @@ public class C07Map {
 			int value = map.get(key);
 			System.out.println("key : " + key);
 		}
+		int rmval = map.remove("aaa");
+		System.out.println("삭제확인 : "+ rmval);
+		System.out.println("삭제이후개수 : "+ map.size());
 		
 	}
 }
