@@ -21,7 +21,7 @@ class StdInfo {
 	//hashCode(id값 리턴)
 	@Override
 	public int hashCode() {
-		return id;
+		return this.id;
 	}
 	//equals(id만 일치여부 확인)
 	@Override
@@ -38,24 +38,28 @@ class StdInfo {
 public class C09Map {
 	public static void main(String[] args) {
 
-		Map<Integer, StdInfo> map = new HashMap();
+		Map<Integer,StdInfo> map = new HashMap();
 		//값삽입
 		map.put(1010, new StdInfo(1010,"홍길동","컴퓨터공학","대구"));
-		map.put(1010, new StdInfo(2020,"동길동","정보보호학과","서울"));
-		map.put(1010, new StdInfo(3030,"서길동","미생물학과","부산"));
-		map.put(1010, new StdInfo(4040,"남길동","국어국문학과","천안"));
+		map.put(2020, new StdInfo(2020,"동길동","정보보호학과","서울"));
+		map.put(3030, new StdInfo(3030,"서길동","미생물학과","부산"));
+		map.put(4040, new StdInfo(4040,"남길동","국어국문학과","천안"));
 		//개수확인
 		System.out.println("개수 : "+ map.size());
 		//조회
-		Iterator<StdInfo> iter = set.iterator();
-		while(iter.hasNext()) {
-			StdInfo tmp = iter.next();
-			System.out.println(tmp.toString());
+		Set<Integer> set2 = map.keySet();
+		Iterator<Integer> iter2 = set2.iterator();
+		while(iter2.hasNext()) {
+			Integer key = iter2.next();
+			StdInfo value = map.get(key);
+			System.out.println(value.toString());
 		}
+		System.out.println("---------------");
 		//삭제
-		map.remove("홍길동")
+		map.remove(1010);
 		//삭제이후 확인
 		System.out.println("개수 : "+ map.size());
+		
 
 	}
 
